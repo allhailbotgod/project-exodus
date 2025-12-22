@@ -1,0 +1,80 @@
+/* CODE BY BOTGODJAY */
+
+:root {
+  font-size: 18px;
+  --margin: 1.5rem;
+  --h1-size: clamp(0.7rem, 4.6vw, 3rem);
+  --h2-size: clamp(0.9rem, 6vw, 2.5rem);
+  --h3-size: 1.2rem;
+  --button-border-radius: 8px;
+  --tagline-size: 12px;
+  --button-width: 300px;
+  --button-height: 30px;
+  --p-size: 18px;
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  height: 100vh;
+  position: relative;
+}
+
+.body {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-51%, -35%);
+}
+
+.display {
+  margin-bottom: 3.5rem;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: 
+    "img title";
+  grid-template-rows: 70px auto;
+  place-items: center;
+}
+
+.display img {
+  grid-area: img;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.display h2 {
+  grid-area: title;
+  text-align: center;
+  font-size: var(--h2-size);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form input {
+  height: var(--button-height);
+  width: var(--button-width);
+  border-radius: var(--button-border-radius);
+}
+
+button {
+  height: var(--button-height);
+  margin-top: .8rem;
+}
+
+footer {
+  margin-top: 2rem;
+}

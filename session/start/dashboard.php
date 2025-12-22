@@ -1,0 +1,17 @@
+<!-- CODE BY BOTGODJAY -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HFYV Dashboard</title>
+  <link rel="stylesheet" href="../../styles/dashboard.css">
+</head>
+<body>
+  <div>
+    <img src="" alt="">
+    <p>Hello <span id="username"></span></p>
+  </div>
+</body>
+</html>
