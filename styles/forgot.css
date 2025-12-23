@@ -33,29 +33,35 @@ body {
     "form"
     "footer";
   place-items: center;
-  grid-template-rows: 190px 40px 40px 180px auto;
+  grid-template-rows: 175px 50px 50px 200px auto;
 }
 
 img {
   grid-area: img;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   background-size: cover;
+  align-self: end;
 }
 h2 {
   grid-area: heading;
-  align-self: start;
+  align-self: end;
 }
 
-p {grid-area: info;}
+p {
+  grid-area: info;
+  text-align: justify;
+  align-self: end;
+}
 
 form {
   grid-area: form;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 300px;;
+  width: 300px;
+  align-self: end;
 }
 
 form input {
@@ -69,6 +75,10 @@ button {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
   grid-area: footer;
   align-self: end;
 }

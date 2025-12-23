@@ -21,6 +21,7 @@
   </form>
 
   <footer>
+    <button onclick="window.location.href='../start/dashboard.php'">Go back to Home</button>
     <p>&copy;HOLY FAMILY YOUTH VILLAGE</p>
   </footer>
 </body>

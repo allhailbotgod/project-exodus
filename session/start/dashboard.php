@@ -9,9 +9,15 @@
   <link rel="stylesheet" href="../../styles/dashboard.css">
 </head>
 <body>
-  <div>
-    <img src="" alt="">
-    <p>Hello <span id="username"></span></p>
-  </div>
+  <header>
+    <nav class="nav">
+      <ul>
+        <li><a href="dashboard.php">Home</a></li>
+        <li><a href="chat.php">Chat</a></li>
+        <li><a href="schedule.php">Schedule</a></li>
+        <li><a href="complaint.php">Complaint</a></li>
+      </ul>
+    </nav>
+  </header>
 </body>
 </html>
