@@ -45,6 +45,7 @@ body {
 img {
   width: 90px;
   height: 90px;
+  background-size: cover;
   border-radius: 50%;
 
 }

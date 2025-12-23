@@ -46,6 +46,7 @@ body {
 
 .display img {
   grid-area: img;
+  background-size: cover;
   width: 70px;
   height: 70px;
   border-radius: 50%;
